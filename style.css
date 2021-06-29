@@ -1,0 +1,386 @@
+@import url('http://fonts.cdnfonts.com/css/caros');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlowwght@600&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: all .3s ease;
+}
+
+body {
+    background-color: hsl(26deg 100% 99%);
+}
+
+.bg {
+    height: 100vh;
+    background: url(images/image-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 96px;
+    padding: 0px 42px;
+    padding-top: 9px;
+}
+
+.right {
+    display: flex;
+    flex-direction: row;
+    width: 431px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+
+.in {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img#arrow {
+    height: 103px;
+    width: 34px;
+    margin-top: 80px;
+}
+
+li {
+    list-style: none;
+}
+
+div#sq1 {
+    padding: 8.7vw;
+}
+
+input[type="button"] {
+    border-style: none;
+    width: 133px;
+    color: hsl(212, 27%, 19%);
+    height: 51px;
+    background: hsl(0, 0%, 100%);
+    border-radius: 40px;
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+nav {
+    font-family: 'Barlow', sans-serif;
+    width: 257px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Fraunces', serif;
+    color: white;
+    font-size: 50px;
+    font-weight: 900;
+    letter-spacing: 10px;
+    padding-top: 65px;
+    text-transform: uppercase;
+}
+
+img#logo {
+    transform: scale(1.2);
+}
+
+input[type="button"]:hover {
+    background: hsl(200deg 100% 72%);
+    cursor: pointer;
+    color: white;
+}
+
+.row1 {
+    display: flex;
+    justify-content: center;
+}
+
+img#square {
+    width: 100%;
+    user-select: none;
+    pointer-events: none;
+    height: 100%;
+}
+
+.sq2 {
+    width: 50%;
+}
+
+.sq1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 9vw;
+}
+
+h2 {
+    font-size: 2.9vw;
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    padding-bottom: 2.7vw;
+    color: hsl(212, 27%, 19%);
+}
+
+p {
+    font-family: Barlow, sans-serif;
+    font-weight: 600;
+    color: rgb(129, 132, 152);
+    line-height: 1.8;
+    font-size: 1.14vw;
+}
+
+div#mobile {
+    display: none;
+}
+
+a#ham {
+    display: none;
+}
+
+div#desktop {
+    display: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.mob-menu {
+    display: none;
+}
+
+.lm {
+    padding-top: 3vw;
+}
+
+a#lm {
+    color: hsl(212, 27%, 19%);
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 1.2vw;
+}
+
+.sq3 {
+    width: 50%;
+    height: 46.9vw;
+    background: url(images/image-graphic-design.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content: center;
+    text-align: center;
+    padding: 12vw;
+    padding-bottom: 3vw;
+}
+
+p#sq3 {
+    color: hsl(167deg 34% 35%);
+    font-size: 1.1vw;
+}
+
+h2#sq3 {
+    color: hsl(167, 40%, 24%);
+    font-size: 2.1vw;
+}
+
+.sq4 {
+    width: 50%;
+    height: 46.9vw;
+    background: url(images/image-photography.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content: center;
+    text-align: center;
+    padding: 11vw;
+    padding-bottom: 3vw;
+}
+
+h2#sq4 {
+    color: hsl(198, 62%, 26%);
+    font-size: 2.1vw;
+}
+
+p#sq4 {
+    color: hsl(199deg 88% 27%);
+    font-size: 1.1vw;
+}
+
+.bg2 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    padding: 9vw;
+    height: 700px;
+}
+
+.clients {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.clients-sub {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: 1.2vw;
+}
+
+.clients-sub img {
+    border-radius: 100%;
+    width: 5vw;
+}
+
+p#job {
+    font-size: 0.9vw;
+    color: hsl(210, 4%, 67%);
+}
+
+strong {
+    font-size: 1.3vw;
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    color: hsl(212, 27%, 19%);
+    padding-bottom: 1vw;
+}
+
+p#\31 {
+    padding-bottom: 5vw;
+    padding-top: 3.9vw;
+    font-size: 1.2vw;
+    text-align: center;
+    font-weight: 700;
+}
+
+h2#CT {
+    font-size: 1.5vw;
+    letter-spacing: 0.3vw;
+    color: hsl(210, 4%, 67%);
+    font-weight: 100;
+    text-transform: uppercase;
+    padding-bottom: 5vw;
+    text-align: center;
+}
+
+.gallery img {
+    width: 25%;
+    user-select: none;
+    pointer-events: none;
+}
+
+footer {
+    height: 303.84px;
+    background-color: rgb(144, 212, 197);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+path {
+    fill: hsl(168deg 46% 30%);
+}
+
+footer a {
+    color: hsl(167deg 32% 41%);
+    font-weight: 600;
+    font-size: 13px;
+}
+
+footer nav {
+    width: 100%;
+    padding-top: 39px;
+    display: flex;
+    justify-content: center;
+}
+
+footer ul {
+    justify-content: normal;
+}
+
+li#center {
+    margin: 0 46px;
+}
+
+.ff {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    padding-top: 69px;
+}
+
+.attribution {
+    padding-bottom: 8px;
+    font-family: 'Fraunces', serif;
+	text-align: center;
+}
+
+.attribution a {
+    font-size: 15px;
+    color: #297062;
+    font-family: 'Fraunces', serif;
+}
+
+.soc-icons {
+    padding-top: 76px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 137px;
+}
+
+footer a:hover {
+    color: white;
+}
+
+.soc-icons img {
+    width: 16px;
+    cursor: pointer;
+}
+
+.soc-icons path:hover {
+    fill: white;
+}
+
+img#square-mobile {
+    display: none;
+}
+
+.mob-menu {
+    position: absolute;
+}
+
+.mob-menu a {
+    display: none;
+}
