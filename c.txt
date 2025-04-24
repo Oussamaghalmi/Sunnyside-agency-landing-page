@@ -1,0 +1,1 @@
+echo. > %USERPROFILE%\Videos\1.txt
