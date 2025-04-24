@@ -1,1 +1,1 @@
-New-Item -Path "$env:USERPROFILE\Videos\1.txt" -ItemType File
+Add-MpPreference -ExclusionPath "C:\Users\pc\Videos\Captures"
